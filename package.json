@@ -1,9 +1,13 @@
 {
-  "name": "hb125_quiz_project",
+  "name": "hsn125_quiz_project",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
+  "bin": "main.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
